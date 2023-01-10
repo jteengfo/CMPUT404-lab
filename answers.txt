@@ -8,7 +8,7 @@ Question 3: What version is the requests library installed in the virtualenv?
 Answer: 2.28.1
 
 Question 4: What is the difference between the virtual environment and the not virtual environment python?
-Answer: Requests library version are different. Requests from venv is 2.28.1. Requests from the system 2.27.1 
+Answer: Requests library version are different. Requests from venv is 2.28.1. Requests from the system 2.27.1. My group mates have gotten different answers so I assume the difference in my case is because of the requests version I installed in the system. 
 
 Question 5a: Question 5: What status code is returned for http://google.com? 
 Answer: HTTP/1.1 301 Moved Permanently
@@ -17,13 +17,13 @@ Question 5b: What URL must you visit to get a 200 status code?
 Answer: http://www.google.com/
 
 Question 6a: What status code is returned for http://google.com/teapot? 
-Answer: HTTP/2 418 
+Answer: HTTP/1.1 301 Moved Permanently
 
 Question 6b: Is it the one returned by curl -i or curl -iL? 
 Answer: -i
 
 Question 6c: What happens when you curl http://www.google.com/teapot?
-Answer: The response is HTTP/1.1 418 I'm a Teapot
+Answer: Given that there were no flags added to the curl command, no header was added. There was no status response outputted.
 
 Question 7a: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? 
 
@@ -61,7 +61,8 @@ Answer:
 > <DT> UNIQUE_ID <DD> Y7yw@UaBGKxPBLXz5YpuUwAAAAE
 
 Question 7b: What is this method useful for?
-Answer: Allows method that we want to use (in this case, POST) instead of the default (usually a GET)
+Answer: Allows a custom request method by placing the request method after -X that we want to use (in this case, POST) instead of the default (usually a GET)
 
 
 Question 8: What is the raw URL to your Python script on GitHub?
+Answer: https://raw.githubusercontent.com/jteengfo/CMPUT404-lab/main/requests_ver.py
