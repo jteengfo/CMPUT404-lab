@@ -28,4 +28,4 @@ def get(host, port):
     s.close()
 
 # 80 is standard for http requests that are not encrypted
-get("www.google.com", 80)
+get("localhost", 8080)
